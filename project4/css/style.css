@@ -1,0 +1,103 @@
+
+body{
+    overflow-x: hidden;
+}
+
+.navbar .nav-link {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding-left: 1.3rem !important;
+    padding-right: 1.3rem !important;
+}
+.navbar .nav-item.active{
+    border-left: 1px solid #dddd ;
+    border-right: 1px solid #dddd ;
+
+}
+
+.carousel-item{
+    height: 450px;
+}
+
+.carousel-image-1{
+    background: url("../img/image1.jpg"), linear-gradient(to bottom , rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel-image-2{
+    background: url("../img/image2.jpg"), linear-gradient(to bottom , rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.carousel-image-3{
+    background: url("../img/image3.jpg"), linear-gradient(to bottom , rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#homeHeading{
+    position: relative;
+    min-height: 200px;
+    background: url('../img/lights.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #ffffff;
+}
+
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+#videoplay{
+    position: relative;
+    min-height: 200px;
+    background: url('../img/lights.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#videoplay a{
+    color: #ffffff;
+}
+
+#pageHeader{
+    height: 200px;
+    background: url('../img/image2.jpg');
+    background-position: 0 -360px;
+    background-attachment: fixed;
+    color: #ffffff;
+    border-bottom:2px solid #eeeeee;
+    padding-top: 50px;
+}
+
+.about-img{
+    margin-top: -80px;
+}
+
+
+#FAQ .card{
+    border: #444444;
+}
+
+#FAQ a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+#FAQ .card-body,
+#FAQ .card-header{
+ background: #333333;
+}
